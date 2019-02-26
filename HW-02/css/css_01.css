@@ -1,0 +1,58 @@
+div.head-left {
+    background: #e69e4d;
+    width: 49%;
+    height: 10%;
+    margin: 10px 2px 5px 0px;
+    float: left;
+    z-index: 0;
+    position: relative;
+
+}
+
+div.head-right {
+    background: #e69e4d;
+    width: 49%;
+    height: 10%;
+    margin: 10px 0px 5px 2px;
+    float: right;
+    position: relative;
+    z-index: 0;
+
+}
+
+div.triple {
+    background: #4c64e7;
+    position: relative;
+    width: 32%;
+    height: 25%;
+    display: inline-block;
+    margin: 10px 0px;
+    z-index: 0;
+}
+
+div.quadruple {
+    background: #727792;
+    position: relative;
+    width: 23%;
+    height: 25%;
+    display: inline-block;
+    margin: 10px 0px;
+    z-index: 0;
+}
+
+div.center-block {
+    background: #eaf73a;
+    width: 100%;
+    height: 30%;
+    margin: 10px 0px 5px 0px;
+    z-index: 0;
+    display: inline-block;
+}
+
+div.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+
+}
