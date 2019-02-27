@@ -39,10 +39,11 @@ div.quadruple {
     margin: 10px 0px;
     z-index: 0;
 }
-div.main-center
-{
+
+div.main-center {
     width: 55%;
 }
+
 div.center-block {
     background: #eaf73a;
     width: 100%;
@@ -52,9 +53,8 @@ div.center-block {
     display: inline-block;
 }
 
-div.side-block
-{
-    height:100%;
+div.side-block {
+    height: 100%;
     width: 20%;
     margin: 0px 5 px;
 }

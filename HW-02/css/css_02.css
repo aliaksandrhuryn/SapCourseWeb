@@ -4,7 +4,6 @@ table {
 }
 
 tr.head-block {
-
     height: 10vh;
 
 }
@@ -18,38 +17,39 @@ tr.head-block>td {
 
 tr.center-block {
     height: 35vh;
-   
+
 }
 
 tr.center-block>td {
-
     background: #cff135;
     width: 90vh;
     border: solid 10px #ffffff;
 }
-tr.triple{
+
+tr.triple {
     height: 25vh;
 }
-tr.triple>td
-{
+
+tr.triple>td {
     background: #5549f7;
     width: 30vh;
     border: solid 10px #ffffff;
 }
-tr.quadruple
-{
+
+tr.quadruple {
     height: 25vh;
 }
-tr.quadruple>td{
+
+tr.quadruple>td {
     background: #727792;
     width: 25%;
     border: solid 10px #ffffff;
 }
-td.side-block
-{
+
+td.side-block {
     width: 20vh;
 }
-td.central-block 
-{
+
+td.central-block {
     width: 60vh;
 }

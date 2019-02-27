@@ -1,0 +1,27 @@
+div.red {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: red;
+    top: 10%;
+    left: 40%
+}
+
+div.green {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: green;
+    top: 28%;
+    left: 50%;
+    z-index: 1;
+}
+
+div.blue {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: blue;
+    left: 60%;
+    top: 45%;
+}
