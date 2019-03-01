@@ -1,55 +1,27 @@
-table {
-    width: 100%;
-    table-layout: auto;
+div.red {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: red;
+    top: 10%;
+    left: 40%
 }
 
-tr.head-block {
-    height: 10vh;
-
+div.green {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: green;
+    top: 28%;
+    left: 50%;
+    z-index: 1;
 }
 
-tr.head-block>td {
-    background: #f3a531;
-    width: 45vh;
-    border: solid 10px #ffffff;
-
-}
-
-tr.center-block {
-    height: 35vh;
-
-}
-
-tr.center-block>td {
-    background: #cff135;
-    width: 90vh;
-    border: solid 10px #ffffff;
-}
-
-tr.triple {
-    height: 25vh;
-}
-
-tr.triple>td {
-    background: #5549f7;
-    width: 30vh;
-    border: solid 10px #ffffff;
-}
-
-tr.quadruple {
-    height: 25vh;
-}
-
-tr.quadruple>td {
-    background: #727792;
-    width: 25%;
-    border: solid 10px #ffffff;
-}
-
-td.side-block {
-    width: 20vh;
-}
-
-td.central-block {
-    width: 60vh;
+div.blue {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: blue;
+    left: 60%;
+    top: 45%;
 }

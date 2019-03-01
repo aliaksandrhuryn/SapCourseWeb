@@ -1,0 +1,56 @@
+header {
+    width: 100%;
+    height: auto;
+    background: rgb(52, 84, 179);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+header:hover {
+
+    background: rgba(52, 84, 179, 0.5)
+}
+
+img.small {
+
+    width: 100px;
+    height: 100px;
+}
+
+div.main-block {
+    width: 80%;
+    height: auto;
+    margin: 5% 10% 0% 10%;
+    position: relative;
+    background: rgba(86, 150, 187, 0.5);
+    border-left: solid 4px rgb(225, 228, 48);
+    border-right: solid 4px rgb(225, 228, 48);
+}
+
+div.main-block>div {
+    display: block;
+    column-count: 2;
+    column-width: 50%;
+}
+
+footer {
+    position: relative;
+    margin-top:20px;
+    width: 100%;
+    height: auto;
+    background: rgba(52,84,179,0.5)
+        
+}
+footer:hover
+{
+    background: rgb(52, 84, 179)
+}
+body
+{
+    position: absolute;
+
+}

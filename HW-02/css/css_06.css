@@ -1,0 +1,39 @@
+@media screen and (min-device-width: 1920px) and (min-device-height: 1080px) {
+    img {
+        width: 400px;
+        height: 450px;
+        border: 2px white solid;
+    }
+    div.main-container
+    {
+        display: flexbox;
+        width: 100%;
+        height: 100%;
+        column-count: 5;
+    }
+
+}
+@media screen and (max-device-width: 1282px) and (min-device-height: 1024px) {
+
+    div.main-container
+    {
+        display: flexbox;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+#big-image
+{
+    width: 400px;
+    height: 420px;
+    border: 2px white solid;
+}
+img
+{
+    width: 200px;
+    height: 200px;
+    border: 2px white solid;
+}
+
+}
