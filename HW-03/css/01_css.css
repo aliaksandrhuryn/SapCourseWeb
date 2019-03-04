@@ -1,0 +1,14 @@
+#button {
+    position: fixed;
+    left: 50%;
+    background: rgb(41, 41, 182);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color: #ffffff;
+}
+
+div {
+    width: 100vh;
+    height: 100vh;
+}

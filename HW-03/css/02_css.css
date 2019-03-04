@@ -1,0 +1,25 @@
+div.main-container {
+    position: fixed;
+    background-image: url(../img/tanos.jpg);
+    width: 750px;
+    height: 910px;
+    top: 0px;
+    left: 0px;
+}
+
+#clear-button {
+    position: fixed;
+    top: 80px;
+    left: 410px;
+    width: 130px;
+    height: 130px;
+    background-image: url(../img/snap.jpg);
+}
+
+div.top-content {
+    position: fixed;
+    width: 750px;
+    height: 910px;
+    top: 0px;
+    right: 0px;
+}
